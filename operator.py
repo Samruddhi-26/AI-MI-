@@ -255,3 +255,5 @@ print(a<b)
 
 print(b>a)
 print(a==b)
+
+print("operators are coverd ")

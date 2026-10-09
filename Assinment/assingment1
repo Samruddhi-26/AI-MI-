@@ -1,0 +1,247 @@
+# 1.Check if a number is positive, negative, or zero
+
+# a=int(input("enter a number:"))
+
+# if a>0:
+#     print("given number is positive")
+
+# elif a<0:
+#     print("given number is negative")
+
+# else:
+#     print("given number is zero")
+
+
+# 2.Check whether a number is even or odd.
+
+# a= int(input("enter a number"))
+
+# if a % 2==0:
+#     print("given number even")
+
+# else:
+#     print("given number is odd")
+
+
+#3.Find the greater of two numbers.
+
+# num1= int(input("enter a number1:"))
+# num2= int(input("enter a number2:"))
+
+# if num1 > num2:
+#     print(num1,"this is greater number")
+
+# else:
+#     print(num2,"this is greater number")   
+
+
+#4. Find the greatest of three numbers.
+
+# a= int(input("enter a number 1:"))
+# b= int(input("enter a number 2:"))
+# c= int(input("enter a number 3:"))
+
+# if a>b:
+#     print(a," is greater number ")
+
+# elif b>a:
+#     print(b,"is greater number")    
+
+# else:
+#     print(c,"is grater number")    
+
+#5.Check if a person is eligible to vote (age ≥ 18)
+
+# age= int(input("enter a age of person:"))
+
+# if age >=18:
+#     print("person is eligible for vote")
+
+# else:
+#     print("person is not eligible for vote")    
+
+#6.Check whether a year is a leap year.
+# year=int(input("enter a year:"))
+# if year % 4==0:
+#     print("leap year")
+# elif year % 100 == 0   :
+#     print("not a leap year") 
+# elif year % 4==0:
+
+#     print(" leap year")  
+# else:
+#     print("not a leap year")      
+
+#7.Check if a character is a vowel or consonant
+# ch = input("enter a character:")
+
+# if ch=="A" or ch=="E" or ch=="I" or ch=="O" or ch=="U":
+#     print("it is vowels")
+
+# else:
+#     print("it is consonant")    
+
+#8.Check whether a number is divisible by 5 and 11.
+
+# a= int(input("enter a number:"))
+
+# if a % 5==0:
+#     print("number is divisible by 5")
+# elif a % 11==0:
+#     print("number is divisible by 11")
+# else:
+#     print("number is not divisible by both")        
+
+#9.Check if a number is a multiple of both 3 and 7.
+# a= int(input("enter a number:"))
+
+# if a % 3==0 and a % 7==0:
+#     print("number is multiple by both") 
+
+# else:
+#     print("number is not multiple by both")    
+
+#10.Assign grades based on marks  a. 90–100: A
+# b. 80–89: B
+# c. 70–79: C
+# d. 60–69: D
+# e. Below 60: F
+
+# marks= int(input("enter your marks:"))
+
+# if marks >=90 and marks < 100:
+#     print("your grade is A")
+
+# elif marks >= 80 and marks <  90   :
+#     print("your grade is B")
+
+# elif marks >=70 and marks < 80: 
+#     print("your grade is C")
+
+# elif marks >=60 and marks < 70 :
+#     print("your grade is D")
+
+# elif marks < 60:
+#     print("you are fail") 
+# else :
+#     print("invalid marks")         
+
+
+#11.Check if a character is uppercase or lowercase
+
+# ch= input("enter a character:")
+
+# if ch .isupper():
+#     print("character is uppercase")
+# elif ch.islower():
+#     print("character is lowercase")
+# else:
+#     print("invalid character")        
+
+
+#12.Find whether the entered alphabet is a vowel using if-elif.
+
+# ch= input("enter a character:").lower()
+
+# if ch=="a":
+#     print("it is vowel")
+# elif ch=="e":
+#     print("it is vowel")
+        
+# elif ch=="i":
+#     print("it is vowel")
+
+# elif ch=="o":
+#     print("it is vowel")
+
+# elif ch=="u":
+#     print("it is vowel")
+
+# else:
+#     print("it is consonant")
+
+#13. Check if three sides can form a triangle
+
+# a = int(input("Enter first side: "))
+# b = int(input("Enter second side: "))
+# c = int(input("Enter third side: "))
+
+# if a + b > c and a + c > b and b + c > a:
+#     print("Triangle can be formed")
+# else:
+#     print("Triangle cannot be formed")
+
+#14.Determine the type of triangle (Equilateral, Isosceles, Scalene).
+
+# a = int(input("Enter first side: "))
+# b = int(input("Enter second side: "))
+# c = int(input("Enter third side: "))
+
+# if a <= 0 or b <= 0 or c <= 0:
+#     print("Invalid sides")
+# elif a + b <= c or a + c <= b or b + c <= a:
+#     print("Triangle cannot be formed")
+# elif a == b and b == c:
+#     print("Equilateral Triangle")
+# elif a == b or b == c or a == c:
+#     print("Isosceles Triangle")
+# else:
+#     print("Scalene Triangle")
+
+#15.Find the largest among four numbers.
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# c = int(input("Enter third number: "))
+# d = int(input("Enter fourth number: "))
+
+# if a >= b and a >= c and a >= d:
+#     print("Largest number is:", a)
+# elif b >= a and b >= c and b >= d:
+#     print("Largest number is:", b)
+# elif c >= a and c >= b and c >= d:
+#     print("Largest number is:", c)
+# else:
+#     print("Largest number is:", d)
+
+
+#16.Check whether a number is a three-digit number.
+
+# num = int(input("Enter a number: "))
+
+# if 100 <= abs(num) <= 999:
+#     print("Three-digit number")
+# else:
+#     print("Not a three-digit number")
+
+
+#17. Calculate electricity bill using slab rates
+
+# unit= int(input("enter a bill unit:"))
+
+# if unit <=0:
+#     print("invalid unit")
+# elif unit <= 100:
+#     bill=unit*5
+#     print("electricity bill",bill)    
+# elif unit <= 200:
+#     bill = 100 * 5 + (unit - 100) * 7
+#     print("Electricity bill:", bill)
+# else:
+#     bill = 100 * 5 + 100 * 7 + (unit - 200) * 10
+#     print("Electricity bill:", bill)
+    
+#18.Calculate income tax based on income slabs
+
+income = float(input("Enter your  income: "))
+
+if income <= 250000:
+    tax = 0
+elif income <= 500000:
+    tax = income * 0.05
+elif income <= 1000000:
+    tax = income * 0.20
+else:
+    tax = income * 0.30
+
+print("Income tax:", tax)
